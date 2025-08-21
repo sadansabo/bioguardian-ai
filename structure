@@ -1,0 +1,16 @@
+bioguardian-ai/
+├── app/
+│   ├── __init__.py
+│   ├── main.py          # FastAPI application
+│   └── api.py           # Endpoints
+├── model/
+│   ├── __init__.py
+│   ├── inference.py     # Code for loading model and predicting
+│   └── assets/          # For storing model files (e.g., class_labels.txt)
+├── training/
+│   └── train_model.ipynb  # Colab notebook for model development
+├── docker/
+│   └── Dockerfile
+├── requirements.txt
+├── .dockerignore
+└── README.md
